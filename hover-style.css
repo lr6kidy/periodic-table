@@ -1,0 +1,92 @@
+.element {
+  transition: 0.15s;
+}
+
+.hydrogen:hover, .carbon:hover, .nitrogen:hover, 
+.oxygen:hover, .phosphorus:hover, .sulfur:hover, 
+.selenium:hover {
+  border-color: rgb(255, 255, 123);
+  color: rgb(255, 255, 123);
+  box-shadow: 0 1px 6px rgb(255, 255, 123);
+}
+
+.helium:hover, .neon:hover, .argon:hover, .krypton:hover,
+.xenon:hover, .radon:hover, .oganesson:hover {
+  border-color: orangered;
+  color: orangered;
+  box-shadow: 0 1px 6px orangered;
+}
+
+.lithium:hover, .sodium:hover, .potassium:hover,
+.rubidium:hover, .cesium:hover, .francium:hover {
+  border-color: rgb(186, 146, 255);
+  color: rgb(186, 146, 255);
+  box-shadow: 0 1px 6px rgb(186, 146, 255);
+}
+
+.beryllium:hover, .magnesium:hover, .calcium:hover,
+.strontium:hover, .barium:hover, .radium:hover {
+  border-color: rgb(139, 199, 219);
+  color: rgb(139, 199, 219);
+  box-shadow: 0 1px 6px rgb(139, 199, 219);
+}
+
+.fluorine:hover, .chlorine:hover, .bromine:hover,
+.iodine:hover, .astatine:hover, .tennessine:hover {
+  border-color: orange;
+  color: orange;
+  box-shadow: 0 1px 6px orange;
+}
+
+.boron:hover, .silicon:hover, .germanium:hover, .arsenic:hover,
+.antimony:hover, .tellurium:hover, .polonium:hover {
+  border-color: rgb(152, 255, 68);
+  color: rgb(152, 255, 68);
+  box-shadow: 0 1px 6px rgb(152, 255, 68);
+}
+
+.aluminium:hover, .gallium:hover, .indium:hover, .tin:hover,
+.thallium:hover, .lead:hover, .bismuth:hover, .nihonium:hover,
+.flerovium:hover, .moscovium:hover, .livermorium:hover {
+  border-color: rgb(127, 241, 109);
+  color: rgb(127, 241, 109);
+  box-shadow: 0 1px 6px rgb(127, 241, 109);
+}
+
+.scandium:hover, .titanium:hover, .vanadium:hover,
+.chromium:hover, .manganese:hover, .iron:hover, .cobalt:hover,
+.nickel:hover, .copper:hover, .zinc:hover, .yttrium:hover,
+.zirconium:hover, .niobium:hover, .molybdenum:hover, 
+.technetium:hover, .ruthenium:hover, .rhodium:hover,
+.palladium:hover, .silver:hover, .cadmium:hover, .hafnium:hover,
+.tantalum:hover, .tungsten:hover, .rhenium:hover, .osmium:hover,
+.iridium:hover, .platinum:hover, .gold:hover, .mercury:hover,
+.rutherfordium:hover, .dubnium:hover, .seaborgium:hover,
+.bohrium:hover, .hassium:hover, .meitnerium:hover,
+.darmstadtium:hover, .roentgenium:hover, .copernicium:hover {
+  border-color: rgb(79, 255, 185);
+  color: rgb(79, 255, 185);
+  box-shadow: 0 1px 6px rgb(79, 255, 185);
+}
+
+.lanthanide:hover, .lanthanum:hover, .cerium:hover, .praseodymium:hover,
+.neodymium:hover, .promethium:hover, .samarium:hover, .europium:hover,
+.gadolinium:hover, .terbium:hover, .dysprosium:hover, .holmium:hover,
+.erbium:hover, .thulium:hover, .ytterbium:hover, .lutetium:hover {
+  border-color: rgb(250, 51, 51);
+  color: rgb(250, 51, 51);
+  box-shadow: 0 1px 6px rgb(250, 51, 51);
+}
+
+.actinide1:hover, .actinium:hover, .thorium:hover, .protactinium:hover,
+.uranium:hover, .neptunium:hover, .plutonium:hover, .americium:hover,
+.curium:hover, .berkelium:hover, .californium:hover, .einsteinium:hover,
+.fermium:hover, .mendelevium:hover, .nobelium:hover, .lawrencium:hover {
+  border-color: rgb(255, 110, 110);
+  color: rgb(255, 110, 110);
+  box-shadow: 0 1px 6px rgb(255, 110, 110);
+}
+
+.category1:hover .nonmetal0 {
+  background-color: red;
+}

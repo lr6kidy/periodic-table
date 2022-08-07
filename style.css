@@ -1,0 +1,333 @@
+body {
+  font-family: inconsolata, arial;
+  color: white;
+  background-color: rgb(52, 52, 52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body {
+  height: 99%;
+  width: 99%;
+}
+
+main {
+  width: auto;
+}
+
+p, div, h1 {
+  margin: 0;
+}
+
+h1 {
+  position: absolute;
+  top: -60px;
+  font-size: 32px;
+  font-weight: 300;
+  margin-left: 40px;
+  width: 310px;
+  border-bottom: solid 2px white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+h1:hover {
+  width: 624px;
+}
+
+.blank1 {
+  position: relative;
+}
+
+.legend1 {
+  position: absolute;
+  left: 40px;
+  top: 16px;
+  border: solid 1px rgb(185, 185, 185);
+  width: 94px;
+  height: 96.6px;
+}
+
+.example-numbers {
+  text-align: center;
+}
+
+.example-atomic-number, .example-rel-atomic-mass {
+  display: inline-block;
+}
+
+.example-atomic-number {
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 12px;
+  color: rgb(185, 185, 185);
+}
+
+.example-rel-atomic-mass {
+  font-size: 13px;
+  color: rgb(185, 185, 185);
+}
+
+.example-symbol {
+  font-size: 36px;
+  text-align: center;
+  margin: 8px 0 8px 0;
+  color: rgb(185, 185, 185);
+}
+
+.example-name {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(185, 185, 185);
+}
+
+.legend-an, .legend-ram, .legend-s, .legend-n {
+  position: absolute;
+  font-size: 13px;
+  font-weight: 300;
+  color: rgb(185, 185, 185);
+}
+
+.legend-an {
+  top: -24px;
+  left: 16px;
+  width: 88px;
+  border-top: solid 1px rgb(185, 185, 185);
+  border-left: solid 1px rgb(185, 185, 185);
+  padding: 2px 0 6px 4px;
+}
+
+.legend-ram {
+  top: 10px;
+  left: 94px;
+  width: 142px;
+  border-top: solid 1px rgb(185, 185, 185);
+  padding: 2px 0 0 14px;
+} 
+
+.legend-s {
+  top: 50px;
+  left: 78px;
+  border-top: solid 1px rgb(185, 185, 185);
+  padding: 2px 6px 0 30px;
+}
+
+.legend-n {
+  top: 98px;
+  left: 32px;
+  border-bottom: solid 1px rgb(185, 185, 185);
+  border-left: solid 1px rgb(185, 185, 185);
+  padding: 4px 6px 2px 4px;
+}
+
+.legend2 {
+  position: absolute;
+}
+
+.column1 {
+  position: absolute;
+  top: 14px;
+  left: 380px;
+  width: 128px;
+}
+
+.column2 {
+  position: absolute;
+  top: 14px;
+  left: 580px;
+}
+
+.category, .category1 {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(185, 185, 185);
+  margin-left: 6px;
+  transition: 0.2s;
+}
+
+.legend-line-alkali-metal, .legend-line-alkaline-earth, .legend-line-transition-metal, .legend-line-basic-metal, .legend-line-metalloid,
+.legend-line-halogen, .legend-line-nonmetal, .legend-line-noble-gas, .legend-line-lanthanide, .legend-line-actinide {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.legend-line-alkali-metal:hover .category, .legend-line-alkaline-earth:hover .category, .legend-line-transition-metal:hover .category,
+.legend-line-basic-metal:hover .category, .legend-line-metalloid:hover .category, .legend-line-halogen:hover .category,
+.legend-line-nonmetal:hover .category1, .legend-line-noble-gas:hover .category, .legend-line-lanthanide:hover .category,
+.legend-line-actinide:hover .category {
+  font-weight: 700;
+  color: white;
+}
+
+.legend-line-alkali-metal:hover .alkali-metal0 {
+  border-color: rgb(186, 146, 255);
+  color: rgb(186, 146, 255);
+}
+
+.legend-line-alkaline-earth:hover .alkaline-earth0 {
+  border-color: rgb(139, 199, 219);
+  color: rgb(139, 199, 219);
+}
+
+.legend-line-transition-metal:hover .transition-metal0 {
+  border-color: rgb(79, 255, 185);
+  color: rgb(79, 255, 185);
+}
+
+.legend-line-basic-metal:hover .basic-metal0 {
+  border-color: rgb(127, 241, 109);
+  color: rgb(127, 241, 109);
+}
+.legend-line-metalloid:hover .metalloid0 {
+  border-color: rgb(152, 255, 68);
+  color: rgb(152, 255, 68);
+}
+
+.legend-line-halogen:hover .halogen0 {
+  border-color: rgb(255, 255, 123);
+  color: rgb(255, 255, 123);
+}
+
+.legend-line-nonmetal:hover .nonmetal0 {
+  border-color: orange;
+  color: orange;
+} 
+
+.legend-line-noble-gas:hover .noble-gas0 {
+  border-color: orangered;
+  color: orangered;
+} 
+
+.legend-line-lanthanide:hover .lanthanide0 {
+  border-color: rgb(255, 71, 71);
+  color: rgb(255, 71, 71);
+}
+
+.legend-line-actinide:hover .actinide0 {
+  border-color: rgb(255, 110, 110);
+  color: rgb(255, 110, 110);
+}
+
+.square1, .square2, .square3, .square4, .square5,
+.square6, .square7, .square8, .square9, .square10 {
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+.square1 {
+  background-color: rgb(186, 146, 255);
+}
+
+.square2 {
+  background-color: rgb(139, 199, 219);
+}
+
+.square3 {
+  background-color: rgb(79, 255, 185);
+}
+
+.square4 {
+  background-color: rgb(127, 241, 109);
+}
+
+.square5 {
+  background-color: rgb(152, 255, 68);
+}
+
+.square6 {
+  background-color: rgb(255, 255, 123);
+}
+
+.square7 {
+  background-color: orange;
+}
+
+.square8 {
+  background-color: orangered;
+}
+
+.square9 {
+  background-color: rgb(250, 51, 51);
+}
+
+.square10 {
+  background-color: rgb(255, 110, 110);
+}
+
+.line1 {
+  display: grid;
+  grid-template-columns: 121.6px 70px 1fr 70px 121.6px;
+  grid-gap: 0px;
+  margin-bottom: 1px;
+  column-gap: 1px;
+}
+
+.line2, .line3 {
+  display: grid;
+  grid-template-columns: 121.6px 70px 70px 1fr repeat(6, 70px) 121.6px;
+  margin-bottom: 1px;
+  column-gap: 1px;
+}
+
+.line4, .line5, .line6, .line7 {
+  display: grid;
+  grid-template-columns: 121.6px repeat(18, 70px ) 121.6px;
+  margin-bottom: 1px;
+  column-gap: 1px;
+}
+
+.line7 {
+  margin-bottom: 20px;
+}
+
+.line8, .line9 {
+  display: grid;
+  grid-template-columns: 121.6px 1fr repeat(15, 70px) 121.6px;
+  margin-bottom: 1px;
+  column-gap: 1px;
+}
+
+.element {
+  border: solid 1px white;
+  height: 70px;
+  cursor: pointer;
+}
+
+.numbers {
+  text-align: center;
+}
+
+.atomic-number, .rel-atomic-mass {
+  display: inline-block;
+}
+
+.atomic-number {
+  font-weight: 500;
+}
+
+.rel-atomic-mass {
+  font-size: 9.5px;
+}
+
+.symbol {
+  font-size: 28px;
+  text-align: center;
+  margin: 2px 0 4px 0;
+}
+
+.name {
+  font-size: 10.5px;
+  text-align: center;
+}
+
+.lanthanide, .actinide1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
